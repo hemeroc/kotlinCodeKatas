@@ -1,0 +1,15 @@
+failFast: true # enable every rule and set issue tolerance to zero
+
+naming:
+  TopLevelPropertyNaming:
+    active: false
+
+performance:
+  SpreadOperator:
+    active: false
+
+comments:
+  UndocumentedPublicClass:
+    active: false
+  UndocumentedPublicFunction:
+    active: false
