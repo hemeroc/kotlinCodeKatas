@@ -10,11 +10,11 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>csvreader</artifactId>
+    <artifactId>csvviewer</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
-        <exec.mainClass>io.github.hemeroc.katas.kotlin.csvreader.application.ApplicationKt</exec.mainClass>
+        <exec.mainClass>io.github.hemeroc.katas.kotlin.csvviewer.application.ApplicationKt</exec.mainClass>
     </properties>
 
     <dependencies>

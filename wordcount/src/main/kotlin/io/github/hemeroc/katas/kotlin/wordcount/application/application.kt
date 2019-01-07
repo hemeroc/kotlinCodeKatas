@@ -34,7 +34,7 @@ fun main(args: Array<String>) = mainBody {
     } while (interactiveMode)
 }
 
-class CommandlineArgs(parser: ArgParser) {
+private class CommandlineArgs(parser: ArgParser) {
     val index by parser.flagging(
         names = *arrayOf("-i", "--index"),
         help = "show index of unique words"
